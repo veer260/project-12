@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;900&family=Roboto:wght@300;400;500;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* ______________________________Section-1_______________________________ */
+.section-1{
+    background-color: #606c7b;
+}
+.navbar{
+    display: flex;
+    padding: 30px 80px;
+    /* background-color: #6D8299; */
+}
+
+.menu{
+    margin-left: auto;
+    display: flex;
+    column-gap: 30px;
+    margin-right: 70px;
+}
+
+.menu-btn{
+    font-family: 'Roboto';
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 0.7rem;
+    color: #CFD2CF;
+}
+
+.talk-btn{
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 0.7rem;
+    font-family: 'Roboto';
+    color: white;
+    font-weight: 500;
+    padding: 3px 35px;
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+}
+
+.img-1{
+    width: 330px;
+    height: 400px;
+    object-fit: cover;
+    padding: 30px 160px ;
+}
+
+.lower-1{
+    display: flex;
+
+}
+
+.right-1{
+    font-family: 'Raleway';
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+
+.heading-1{
+    font-size: 2.7rem;
+    margin-top: 50px;
+}
+
+.para-1{
+    /* font-size: 0.7rem; */
+    font-size: 0.7rem;
+    font-family: 'Roboto';
+    color: #f0f0fb;
+    letter-spacing: 0.5px;
+    opacity: 0.7;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 20px 0;
+}
+
+input{
+    padding: 12px 190px 12px 20px;
+    font-size: 0.7rem;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: rgba(200, 200, 200, 0.5);
+}
+
+.green-btn{
+    font-family: 'Roboto';
+    color: white;
+    background-color: #76BA99;
+    padding: 6px;
+    border: none;
+    width: 90px;
+    position: absolute;
+    top: 449px;
+    right: 360px;
+}
+
+.fa{
+    color: black;
+    position: absolute;
+    top: 459px;
+    right: 672px;
+    font-size: 12px;
+}
+
+
+/* _____________________________________Section-2______________________ */
+.section-2{
+    text-align: center;
+    padding: 50px 140px;
+}
+.heading-2{
+    font-family: 'Raleway';
+    color: black;
+    line-height: 40px;
+}
+
+.numbers{
+    padding: 40px 50px;
+    display: flex;
+    column-gap: 180px;
+}
+
+.para-2{
+    font-size: 0.7rem;
+    font-family: 'Roboto';
+    color: #180A0A;
+    letter-spacing: 0.5px;
+    opacity: 1;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.img-2{
+    width: 700px;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+
+/* ______________________________Section-3____________________________ */
+.section-3{
+    /* text-align: center; */
+    font-family: 'Raleway';
+
+}
+
+.heading-3{
+    color: black;
+    line-height: 40px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.talk-btn-3{
+    font-family: 'Roboto';
+    color: white;
+    background-color: #76BA99;
+    padding: 6px;
+    border: none;
+    width: 90px;
+}
+
+.box-3{
+    display: flex;
+    padding: 0px 320px;
+    column-gap: 40px;
+}
+
+.left-3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-top: 40px;
+}
+
+.para-3{
+    font-size: 0.7rem;
+    font-family: 'Roboto';
+    color: #3e3e46;
+    letter-spacing: 0.5px;
+    opacity: 0.7;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+
+.right-3{
+    flex: 1;
+}
+.img-3{
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+}
+
+/* __________________________Section-4________________________ */
+.section-4{
+    display: flex;
+    padding: 50px 320px;
+    column-gap: 100px;
+}
+
+.right-4{
+    /* font-family: 'Roboto */
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-top: 40px;
+}
+
+.heading-4{
+    font-family: 'Raleway';
+}
+
+.para-4{
+    font-size: 0.7rem;
+    font-family: 'Roboto';
+    color: #3e3e46;
+    letter-spacing: 0.5px;
+    opacity: 0.7;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+.img-4{
+    height: 350px; 
+    width: 320px;
+    object-fit: cover;
+}
+
+
+
+/* ______________________________________Section-5____________________________ */
+.heading-5{
+    font-family: 'Raleway';
+}
+
+
+
+/* ___________________________________Section-6______________________ */
+
+.section-6{
+    padding: 60px 320px;
+}
+
+.upper-6{
+    display: flex;
+    font-family: 'Raleway';
+    column-gap: 190px;
+}
+
+.lower-6{
+    display: flex;
+    padding-top: 40px;
+    column-gap: 29px;
+    /* padding: 30px 320px; */
+}
+
+.card-img{
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+}
+
+.card-heading{
+    font-family: 'Raleway';
+    color: black;
+    line-height: 40px;
+    font-size: 0.8rem;
+
+}
+
+.card-para{
+    font-size: 0.6rem;
+    font-family: 'Roboto';
+    color: #3e3e46;
+    letter-spacing: 0.3px;
+    opacity: 0.9;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.card-btn{
+    margin: 20px auto;
+    display: block;
+}
+
+
+/* __________________________________________section-7_________________________ */
+.section-7{
+    background-color:#162120
+}
+
+.upper-7{
+    padding: 40px 0px;
+    display: flex;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+    width: 780px;
+    margin: 0 auto;
+}
+
+.icons{
+    display: flex;
+    column-gap: 20px;
+    margin-left: auto;
+}
+
+.icon{
+    width: 20px;
+    color: #f0f0fb;
+    background-color: #f0f0fb;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.lists{
+    display: flex;
+    padding: 40px 260px;
+    column-gap: 120px;
+
+}
+
+.list{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.list-heading{
+    font-family: 'Roboto';
+    font-size: 0.6rem;
+    opacity: 0.8;
+}
+
+.list-items{
+    font-family: 'Roboto';
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.5rem;
+}
